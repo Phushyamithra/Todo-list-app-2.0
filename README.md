@@ -1,71 +1,70 @@
-# Getting Started with Create React App
+Todo List App 2.0
+Todo List App 2.0 introduces several new features and improvements over its predecessor, version 1.0. This project is built using React and is hosted on GitHub Pages.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Version 2.0 Enhancements
+Task Categorization: Todos can now be categorized into Habit Development, Productivity, and Personal Development, allowing for better organization and management of tasks.
 
-## Available Scripts
+Enhanced User Interface: The user interface has been refined with a glassy, premium design aesthetic featuring a beach-themed color palette. Subtle animations for task management actions (adding, deleting) provide a smoother user experience.
 
-In the project directory, you can run:
+Advanced State Management: Utilizes React hooks such as useState, useContext, and useReducer for efficient state management, ensuring responsiveness and scalability of the application.
 
-### `npm start`
+Improved Checkbox and Radio Button Styling: Modern styling for checkboxes and radio buttons enhances usability and visual appeal.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Version 1.0 Features
+Basic Task Management: Allows users to add, delete, and mark tasks as completed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Simple UI: Features a straightforward user interface with basic styling and functionality.
 
-### `npm test`
+Tech Stack
+React: A JavaScript library for building user interfaces.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+CSS: Used for styling the application.
 
-### `npm run build`
+Live Demo
+Explore the live demo of Todo List App 2.0 here.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Version 1.0
+For those interested in the simpler version of the Todo List App, you can still access:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Live demo of version 1.0
+GitHub repository for version 1.0
+Getting Started
+Follow these instructions to set up the project on your local machine and start using Todo List App 2.0.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Prerequisites
+Ensure you have the following installed:
 
-### `npm run eject`
+Node.js: Download it here.
+Installation
+Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy code
+git clone https://github.com/Phushyamithra/Todo-list-app.git
+Navigate into the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy code
+cd Todo-list-app
+Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy code
+npm install
+Start the application:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy code
+npm start
+Now you're ready to use Todo List App 2.0 locally!
 
-## Learn More
+Hooks Used
+Todo List App 2.0 makes use of the following React hooks for state management and context:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+useState: Manages local component state for inputs and UI state changes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+useContext: Provides access to shared data (context) throughout the component tree, enabling centralized state management.
 
-### Code Splitting
+useReducer: Handles complex state logic within functional components, offering a more organized approach to state updates and transitions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Todo-list-app
