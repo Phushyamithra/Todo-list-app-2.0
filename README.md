@@ -21,7 +21,7 @@ Check out the live demo of the app [here](https://phushyamithra.github.io/Todo-l
 
 ### Version 1.0
 
-For a simpler version of the Todo List App, you can check out the [live demo](#) and the [GitHub repository](https://phushyamithra.github.io/Todo-list-app/).
+For a simpler version of the Todo List App, you can check out the [live demo](https://phushyamithra.github.io/Todo-list-app/) and the [GitHub repository](https://github.com/Phushyamithra/Todo-list-app?tab=readme-ov-file).
 
 ## Getting Started
 
