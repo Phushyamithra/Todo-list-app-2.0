@@ -1,70 +1,61 @@
-Todo List App 2.0
-Todo List App 2.0 introduces several new features and improvements over its predecessor, version 1.0. This project is built using React and is hosted on GitHub Pages.
+# Todo List App 2.0
 
-Features
-Version 2.0 Enhancements
-Task Categorization: Todos can now be categorized into Habit Development, Productivity, and Personal Development, allowing for better organization and management of tasks.
+A feature-rich todo application with enhanced functionality and improved user experience. This project is built using React and is hosted on GitHub Pages.
 
-Enhanced User Interface: The user interface has been refined with a glassy, premium design aesthetic featuring a beach-themed color palette. Subtle animations for task management actions (adding, deleting) provide a smoother user experience.
+## Features
 
-Advanced State Management: Utilizes React hooks such as useState, useContext, and useReducer for efficient state management, ensuring responsiveness and scalability of the application.
+- Add, delete, and mark tasks as completed.
+- Subtle animations for adding and deleting tasks.
+- Modern checkbox styling.
+- Categorization of todos into Habit Development, Productivity, and Personal Development.
+- Responsive design for seamless use across devices.
 
-Improved Checkbox and Radio Button Styling: Modern styling for checkboxes and radio buttons enhances usability and visual appeal.
+## Tech Stack
 
-Version 1.0 Features
-Basic Task Management: Allows users to add, delete, and mark tasks as completed.
+- React: A JavaScript library for building user interfaces.
+- CSS: For styling the application.
 
-Simple UI: Features a straightforward user interface with basic styling and functionality.
+## Live Demo
 
-Tech Stack
-React: A JavaScript library for building user interfaces.
+Check out the live demo of the app [here](https://phushyamithra.github.io/Todo-list-app-2.0/).
 
-CSS: Used for styling the application.
+### Version 1.0
 
-Live Demo
-Explore the live demo of Todo List App 2.0 here.
+For a simpler version of the Todo List App, you can check out the [live demo](#) and the [GitHub repository](https://phushyamithra.github.io/Todo-list-app/).
 
-Version 1.0
-For those interested in the simpler version of the Todo List App, you can still access:
+## Getting Started
 
-Live demo of version 1.0
-GitHub repository for version 1.0
-Getting Started
-Follow these instructions to set up the project on your local machine and start using Todo List App 2.0.
+These instructions will help you set up the project on your local machine.
 
-Prerequisites
-Ensure you have the following installed:
+### Prerequisites
 
-Node.js: Download it here.
-Installation
-Clone the repository:
+- Node.js ([Download Here](https://nodejs.org/))
 
-bash
-Copy code
-git clone https://github.com/Phushyamithra/Todo-list-app.git
-Navigate into the project directory:
+### Installation
 
-bash
-Copy code
-cd Todo-list-app
-Install dependencies:
+1. Clone the repository:
 
-bash
-Copy code
-npm install
-Start the application:
+    ```bash
+    git clone https://github.com/Phushyamithra/Todo-list-app.git
+    ```
 
-bash
-Copy code
-npm start
-Now you're ready to use Todo List App 2.0 locally!
+2. Install dependencies:
 
-Hooks Used
-Todo List App 2.0 makes use of the following React hooks for state management and context:
+    ```bash
+    cd Todo-list-app
+    npm install
+    ```
 
-useState: Manages local component state for inputs and UI state changes.
+3. Run the app:
 
-useContext: Provides access to shared data (context) throughout the component tree, enabling centralized state management.
+    ```bash
+    npm start
+    ```
 
-useReducer: Handles complex state logic within functional components, offering a more organized approach to state updates and transitions.
+Now you're ready to use the Todo List App locally!
 
+## Hooks Used
+
+- `useState`: For managing stateful logic within functional components.
+- `useContext`: For accessing and using context in functional components to manage application-level state.
+- `useReducer`: For managing complex state and state transitions in functional components.
