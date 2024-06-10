@@ -1,7 +1,6 @@
 import { createContext, useContext, useReducer } from "react";
 import TodoReducer from "../reducers/TodoReducer";
 
-// Create the TodoContext
 const TodoContext = createContext();
 
 // Provider component to wrap around the app and provide the context
